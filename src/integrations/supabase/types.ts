@@ -14,7 +14,59 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      profiles: {
+        Row: {
+          created_at: string | null
+          email: string | null
+          id: string
+        }
+        Insert: {
+          created_at?: string | null
+          email?: string | null
+          id: string
+        }
+        Update: {
+          created_at?: string | null
+          email?: string | null
+          id?: string
+        }
+        Relationships: []
+      }
+      sentiment_analyses: {
+        Row: {
+          analyzed_at: string | null
+          confidence: number | null
+          id: string
+          sentiment: string
+          text: string
+          user_id: string
+        }
+        Insert: {
+          analyzed_at?: string | null
+          confidence?: number | null
+          id?: string
+          sentiment: string
+          text: string
+          user_id: string
+        }
+        Update: {
+          analyzed_at?: string | null
+          confidence?: number | null
+          id?: string
+          sentiment?: string
+          text?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "sentiment_analyses_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never
