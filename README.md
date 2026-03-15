@@ -1,15 +1,15 @@
-# Welcome to your Lovable project
+# Welcome to Sentiment Analysis Dashboard project
 
 ## Project info
 
-**URL**: [https://codecrafters-week5.lovable.app/](https://codecrafters-week5.lovable.app/)
+**URL**: [Sentiment Analysis Dashboard](https://codecrafters-week5.lovable.app/)
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use Sentiment Analysis Dashboard**
 
-Simply visit the [SAD Project]((https://codecrafters-week5.lovable.app/)) and start prompting.
+Simply visit the [Sentiment Analysis Dashboard Project]((https://codecrafters-week5.lovable.app/)) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
