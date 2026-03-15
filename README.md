@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/de33f1da-5217-4133-918a-17316a019ff1) and start prompting.
+Simply visit the [SAD Project]((https://codecrafters-week5.lovable.app/)) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/de33f1da-5217-4133-918a-17316a019ff1) and click on Share -> Publish.
+Simply open [Lovable](https://codecrafters-week5.lovable.app/) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
